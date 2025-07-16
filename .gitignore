@@ -1,0 +1,5 @@
+.env
+*.swp
+yarn.lock
+package.lock
+node_modules
