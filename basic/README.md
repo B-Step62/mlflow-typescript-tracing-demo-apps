@@ -6,19 +6,18 @@ TypeScript implementation of MLflow tracing with session context using Express a
 
 1. Install dependencies:
 ```bash
-yarn install
+npm install
 ```
 
-2. Create `.env` file:
+2. Setup MLflow and environment configuration:
 ```bash
-cp .env.example .env
-# Edit .env and add your OpenAI API key
+npm run setup:basic
 ```
 
 3. Run the application:
 ```bash
 # Development mode with hot reload
-yarn dev
+npm run dev
 ```
 
 ## Example Request
