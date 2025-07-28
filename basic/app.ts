@@ -1,7 +1,7 @@
 import express, { Request, Response } from 'express';
 import { OpenAI } from 'openai';
-import * as mlflow from '@mlflow/tracing';
-import { tracedOpenAI } from '@mlflow/openai';
+import * as mlflow from 'mlflow-tracing';
+import { tracedOpenAI } from 'mlflow-openai';
 import dotenv from 'dotenv';
 
 dotenv.config();
